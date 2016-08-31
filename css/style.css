@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    color: #1F1F1F;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1 {
+    padding: 5px;
+    border-bottom: 7px solid #F2CC26;
+}
+
+h2:before {
+    content: url('./images/icon1.png');
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    top: 0px;
+}
+
+h3:before {
+    content: url('./images/icon2.png');
+    position: relative;
+    margin-left: 10px;
+    margin-right: 5px;
+    top: 2px;
+}
+
+body {
+    margin-bottom: 2em;
+}
+
+/* container */
+.container {
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+
+/* footer */
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2em;
+    width: 100%;
+    padding: 0;
+    background: #f2cc26; /* Old browsers */
+    background: -moz-linear-gradient(left,  #f2cc26 0%, #f2cc26 55%, #63aba7 55%, #63aba7 70%, #d56a37 70%, #d56a37 85%, #c03c49 85%, #c03c49 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #f2cc26 0%,#f2cc26 55%,#63aba7 55%,#63aba7 70%,#d56a37 70%,#d56a37 85%,#c03c49 85%,#c03c49 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #f2cc26 0%,#f2cc26 55%,#63aba7 55%,#63aba7 70%,#d56a37 70%,#d56a37 85%,#c03c49 85%,#c03c49 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2cc26', endColorstr='#c03c49',GradientType=1 ); /* IE6-9 */
+
+}
+
+/* color-sample-block */
+#color-code-grid {
+    width: 450px;
+}
+.color-code-block {
+    float: left;
+    width: 120px;
+    padding: 10px 5px;
+    margin: 2px;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+/* utility */
+.bg-black {
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+}
+.bg-yellow {
+    color: #FFFFFF;
+    background-color: #F2CC26;
+}
+.bg-blue {
+    color: #FFFFFF;
+    background-color: #63ABA7;
+}
+.bg-orange {
+    color: #FFFFFF;
+    background-color: #D56A37;
+}
+.bg-red {
+    color: #FFFFFF;
+    background-color: #C03C49;
+}
+.bg-gray {
+    background-color: #D4D6D8;
+}
